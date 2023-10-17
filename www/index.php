@@ -4,11 +4,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Site</title>
+        <title>OpenCMF</title>
     </head>
+    <?php
+    include('utils/bdd.php');
+    ?>
 
     <body>
-        <?php echo 'Bonjour'; ?>
     </body>
 
 </html>
