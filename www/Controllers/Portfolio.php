@@ -9,11 +9,7 @@ class Portfolio
     {
         $myView = new View("Portfolio/portfolio", "front");
     }
-    public function project():void
-    {
-        $myView = new View("Portfolio/project", "front");
-    }
-    public function page():void
+    public function page(): void
     {
         $myView = new View("Portfolio/page", "front");
     }
