@@ -14,4 +14,8 @@ class Main
     {
         $myView = new View("Main/contact", "front");
     }
+    public function refering(): void
+    {
+        $myView = new View("Main/refering", "front");
+    }
 }

@@ -6,6 +6,10 @@
   controller: Main
   action: contact
 
+/refering:
+  controller: Main
+  action: refering
+
 /login:
   controller: Security
   action: login
