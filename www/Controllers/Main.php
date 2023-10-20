@@ -9,4 +9,9 @@ class Main
     {
         $myView = new View("Main/home", "front");
     }
+
+    public function contact(): void
+    {
+        $myView = new View("Main/contact", "front");
+    }
 }
