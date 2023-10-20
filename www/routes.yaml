@@ -2,6 +2,10 @@
   controller: Main
   action: home
 
+/profile:
+  controller: User
+  action: profile
+
 /contact:
   controller: Main
   action: contact
