@@ -35,5 +35,5 @@
   action: project
 
 /page:
-  controller: Portfolio
+  controller: Page
   action: page
