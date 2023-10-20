@@ -6,10 +6,6 @@
   controller: Main
   action: contact
 
-/refering:
-  controller: Main
-  action: refering
-
 /login:
   controller: Security
   action: login
@@ -21,3 +17,19 @@
 /register:
   controller: Security
   action: register
+
+/refering:
+  controller: Main
+  action: refering
+
+/portfolio:
+  controller: Main
+  action : portfolio
+
+/project:
+  controller: Main
+  action: project
+
+/page:
+  controller: Main
+  action: page
