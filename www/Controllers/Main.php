@@ -14,9 +14,9 @@ class Main
     {
         $myView = new View("Main/contact", "front");
     }
-    public function refering(): void
+    public function aboutus(): void
     {
-        $myView = new View("Main/refering", "front");
+        $myView = new View("Main/aboutus", "front");
     }
     public function portfolio(): void
     {
@@ -24,10 +24,10 @@ class Main
     }
     public function project():void
     {
-        $myView = new View("Main/project", "Front");
+        $myView = new View("Main/project", "front");
     }
     public function page():void
     {
-        $myView = new View("Main/page", "Front");
+        $myView = new View("Main/page", "front");
     }
 }
