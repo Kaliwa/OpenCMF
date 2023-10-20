@@ -7,14 +7,14 @@ class Portfolio
 {
     public function portfolio(): void
     {
-        $myView = new View("Main/portfolio", "front");
+        $myView = new View("Portfolio/portfolio", "front");
     }
     public function project():void
     {
-        $myView = new View("Main/project", "front");
+        $myView = new View("Portfolio/project", "front");
     }
     public function page():void
     {
-        $myView = new View("Main/page", "front");
+        $myView = new View("Portfolio/page", "front");
     }
 }

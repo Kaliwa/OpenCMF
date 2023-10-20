@@ -27,13 +27,13 @@
   action: refering
 
 /portfolio:
-  controller: Main
+  controller: Portfolio
   action : portfolio
 
 /project:
-  controller: Main
+  controller: Portfolio
   action: project
 
 /page:
-  controller: Main
+  controller: Portfolio
   action: page
