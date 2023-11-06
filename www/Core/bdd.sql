@@ -2,12 +2,12 @@
 
 CREATE TABLE
     Users(
-        id int PRIMARY KEY NOT NULL,
+        id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
         email varchar(30) NOT NULL,
         password varchar(18),
         firstname varchar(25) NOT NULL,
         lastname varchar(25) NOT NULL,
-        emailConfimation BOOLEAN NOT NULL,
+        emailConfirmation BOOLEAN NOT NULL,
         resetPassword BOOLEAN NULL,
         avatar varchar(15),
         registrationDate TIMESTAMP NOT NULL,
@@ -16,7 +16,7 @@ CREATE TABLE
 
 CREATE TABLE
     Portfolio(
-        id int PRIMARY KEY NOT NULL,
+        id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
         user_id int NOT NULL,
         name varchar(30) NOT NULL,
         categorie varchar(30) NOT NULL,
@@ -26,7 +26,7 @@ CREATE TABLE
 
 CREATE TABLE
     Project(
-        id int PRIMARY KEY NOT NULL,
+        id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
         portfolio_id int NOT NULL,
         image varchar(15) NOT NULL,
         title varchar(30) NOT NULL,
@@ -37,7 +37,7 @@ CREATE TABLE
 
 CREATE TABLE
     Page(
-        id int PRIMARY KEY NOT NULL,
+        id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
         project_id int NOT NULL,
         image varchar(15) NOT NULL,
         title varchar(30) NOT NULL,
@@ -48,7 +48,7 @@ CREATE TABLE
 
 CREATE TABLE
     Contact(
-        id int PRIMARY KEY NOT NULL,
+        id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
         user_id int NOT NULL,
         linkedin varchar(30) NULL,
         twitter varchar(30) NULL,
@@ -61,7 +61,7 @@ CREATE TABLE
 
 CREATE TABLE
     Comments(
-        id int PRIMARY KEY NOT NULL,
+        id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
         portfolio_id int NOT NULL,
         image varchar(15) NOT NULL,
         title varchar(30) NOT NULL,
