@@ -6,6 +6,10 @@
   controller: User
   action: profile
 
+/users:
+  controller: User
+  action: listUsers
+
 /contact:
   controller: Main
   action: contact
