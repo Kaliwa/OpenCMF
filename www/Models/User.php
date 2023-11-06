@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Core\Database;
 use PDO;
 
 class User
@@ -23,14 +24,17 @@ class User
         $this->role = $role;
     }
 
-    public function saveToDatabase(PDO $pdo)
+    public function saveToDatabase()
     {
+        $db = new Database();
+        $pdo = $db->getPDO();
+
         $req = 'INSERT INTO users(id, email, password, firstname, lastname, emailconfirmation, avatar, registrationdate, role)
          VALUES (:id, :email, :password, :firstname, :lastname, :emailconfirmation, :avatar, :registrationdate, :role)';
         $stmt = $pdo->prepare($req);
 
         $params = [
-            ':id' => 2,
+            ':id' => 3,
             ':email' => $this->email,
             ':password' => $this->password,
             ':firstname' => "Pierre",
