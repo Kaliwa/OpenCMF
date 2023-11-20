@@ -2,8 +2,9 @@
 ## CMF de portfolio
 ___
 
-- GITHUB :
-#### https://github.com/Kaliwa/OpenCMF
+- GITLAB :
+#### https://gitlab.com/opencmf/OpenCMF
+
 - MIRO :
 #### https://miro.com/app/board/uXjVNZ2T82k=/?share_link_id=145854275316
 - NOTION :
